@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github solution URL here](https://github.com/tchydy/Imanage-landing-page-master)
-- Live Site URL: [ live site URL here](https://tchydy.github.io/Imanage-landing-page-master/)
+- Solution URL: [Github solution URL here](https://github.com/tchydy/manage-landing-page-master)
+- Live Site URL: [ live site URL here](https://tchydy.github.io/manage-landing-page-master/)
 
 ## My process
 
@@ -60,8 +60,8 @@ Users should be able to:
 
 ### What I learned
 
-For the first time I tried out tailwind css. I most say it easy to understand although there were some challenges I faced at the beginning but with documentation I found work arounds. For instance most of the sizes in this project are in pixels. The tailwind sizes required a lot adjusting/ converting. So thankfully they were rooms for custom values and custom CSS styles outside HTML. 
-Major learnings were from coding the form and slider sections. They were challenging for me so had to pull resources to achieve what I have done
+For the first time I tried out tailwind css. I most say it easy to understand although there were some challenges I faced at the beginning but with the Tailwind documentation I found some work arounds. For instance most of the sizes in this project are in pixels. The tailwind sizing required a lot of adjusting/ converting. So thankfully they were rooms for custom values and custom CSS styles outside HTML. 
+Asides using Tailwind CSS major learnings were from coding the form and slider sections. They were challenging for me so had to pull resources to achieve what I have done
 
 
 ### Continued development
