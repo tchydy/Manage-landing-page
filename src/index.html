@@ -1,0 +1,307 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet"> 
+<!-- fontawesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title> Manage landing page</title>
+</head>
+<body class="font-BeVietnam w-screen h-screen text-base text-DarkBlue overflow-x-hidden">
+ <main class="min-h-screen absolute w-full overflow-x-hidden ">
+  
+  <!-- Navbar -->
+  <nav class="relative container max-w-[328px] mx-auto font-medium md:max-w-[1110px]">
+   <!-- flex container -->
+   <div class="relative flex items-center mt-[40px]  justify-between z-20 leading-[15px] tracking-[0.18px] md:mt-[56px]">
+    <!-- logo -->
+    <div class="pt-2 cursor-pointer">
+     <img src="../images/logo.svg" alt="logo">
+    </div>
+    <!-- menutoogle -->
+    <div class="nav-btn relative w-[25px] h-[18px] flex flex-col justify-between cursor-pointer md:hidden">
+      <span class=" w-full h-[4px] bg-DarkBlue"></span>
+      <span class="  w-full h-[4px] bg-DarkBlue"></span>
+      <span class="  w-full h-[4px] bg-DarkBlue"></span>
+    </div>
+    <!-- Menu items -->
+    <div class="hidden md:flex space-x-6 text-xs tracking-[0.14px]">
+     <a href="#" class="hover:text-DarkGrayishBlue">Pricing</a>
+     <a href="#" class="hover:text-DarkGrayishBlue">Product</a>
+     <a href="#" class="hover:text-DarkGrayishBlue">About Us</a>
+     <a href="#" class="hover:text-DarkGrayishBlue">Careers</a>
+     <a href="#" class="hover:text-DarkGrayishBlue">Community</a>
+    </div>
+    <!-- Button -->
+    <a href="#" class="hidden md:block px-[32px] py-[14px] font-medium text-white text-xs bg-BrightRed rounded-full drop-shadow-4xl baseline hover:bg-BrightRedLight">Get Started</a>
+   </div>
+   <!-- mobile nav -->
+   <div class="modal hidden opacity-0 fixed top-0 left-0 right-0 bottom-0 bg-[rgba(0,0,0,0.41)] px-[25px] z-10 md:hidden md:opacity-0 ">
+    <div class="p-[40px] bg-VaryLightGray w-[325px] h-[290px] my-[100px] px-[120px] rounded-[2px] drop-shadow-5xl ">
+      <!-- Menu items -->
+    <div class="flex flex-col justify-center items-center text-center top-[45px] mx-auto space-y-[30px] text-sm font-bold tracking-[0.21px] leading-[18px] md:hidden">
+     <a href="#" class="hover:text-DarkGrayishBlue">Pricing</a>
+     <a href="#" class="hover:text-DarkGrayishBlue">Product</a>
+     <a href="#" class="hover:text-DarkGrayishBlue">About Us</a>
+     <a href="#" class="hover:text-DarkGrayishBlue">Careers</a>
+     <a href="#" class="hover:text-DarkGrayishBlue">Community</a>
+    </div>
+    </div>
+   </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="container max-w-[317px] mt-[48px]  flex flex-col-reverse space-y-0  items-center  mx-auto md:mt-[120px] md:flex-row md:space-x-32 md:max-w-[1110px] md:items-start md:space-y-0">
+   <!-- Left item -->
+   <div class="flex flex-col max-w-[460px] mt-[24.4px] md:mt-[50px] md:w-1/2 md:max-w-[465px]">
+   <h1 class="text-[40px] leading-[50px] tracking-[-2.8px] font-bold text-center md:text-[60px] md:text-left md:leading-[64px] md:tracking-[-2.8px] ">
+    Bring everyone together to build better products.
+   </h1>
+   <p class="max-w-[340px] text-[16px] leading-[26px] font-light text-center text-DarkGrayishBlue md:text-left md:mt-[24px] md:mb-[43px]">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view  </p>
+   <!-- Button -->
+    <a href="#" class="self-center mt-[26px] px-[32px] py-[14px] font-medium text-white text-xs tracking-[0.18px] bg-BrightRed rounded-full drop-shadow-4xl baseline hover:bg-BrightRedLight md:mt-[0px] md:self-start md:inline-block ">Get Started</a>
+   </div>
+   <!-- Right item -->
+   <div class="flex flex-col max-w-[540px] md:ml-0.5  md:w-1/2 md:h-[485px] ">
+     <img class="md:w-full md:h-full" src="../images/illustration-intro.svg" alt="illustration-intro">
+   </div>
+  </section>
+
+  <!-- Manage section -->
+  <section class="container flex flex-col mt-[100px] items-center mx-auto md:max-w-[1110px] md:flex-row md:justify-between md:items-start md:space-y-0 md:mt-[130px]">
+   <!-- whats manage -->
+   <div class="flex flex-col items-center mx-[34px] md:mx-0 md:w-1/2 md:items-start">
+   <h1 class="text-[28px] leading-[44px] font-bold text-center md:text-[37px] md:text-left md:leading-[44px]  ">
+    What's different about Manage?
+   </h1>
+   <p class="max-w-[340px] text-[14px] leading-[26px] font-light text-DarkGrayishBlue text-center  md:text-[16px] md:text-left md:mt-[27px] md:max-w-[330px]">Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams </p>
+   </div>
+   <!-- manage details -->
+   <div class="flex flex-col space-y-[50px] mt-[55px] ml-[16px] w-full md:space-y-[40px]   md:mx-0 md:w-1/2 ">
+    <!-- article 1 -->
+    <div>
+      <article class="flex flex-col space-y-[14px] ">
+        <!-- manage heading -->
+        <div class="w-full h-[40px] bg-VeryPaleRed overflow-hidden rounded-tl-[18px] rounded-bl-[18px] md:bg-transparent">
+          <!-- detail 1 heading-->
+          <div class=" flex items-center space-x-[15px] font-bold leading-[28px] md:space-x-[30px] ">
+          <!-- number btn -->
+          <div class="bg-BrightRed rounded-full w-[66px] h-[40px] text-white text-center py-[6px]" >
+           <p class="  tracking-[0.4px] text-[16px] ">01</p> 
+          </div>
+          <!-- number description -->
+          <p class="text-[14px] tracking-[0.35px]  ">Track company-wide progress</p>
+          </div>
+        </div>
+        <!-- manage text -->
+        <p class="max-w-[340px] text-[14px] leading-[26px] font-light  text-DarkGrayishBlue md:text-[16px] md:text-left md:mt-[27px] md:max-w-[440px] md:ml-[96px]">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again. </p>
+      </article>
+     </div>
+    <!-- article 2 -->
+    <div>
+      <article class="flex flex-col space-y-[14px] ">
+        <!-- manage heading -->
+        <div class="w-full h-[40px] bg-VeryPaleRed overflow-hidden rounded-tl-[18px] rounded-bl-[18px] md:bg-transparent">
+          <!-- detail 1 heading-->
+          <div class=" flex items-center space-x-[15px] font-bold leading-[28px] md:space-x-[30px]">
+          <!-- number btn -->
+          <div class="bg-BrightRed rounded-full w-[66px] h-[40px] text-white text-center py-[6px]" >
+           <p class="  tracking-[0.4px] text-[16px] ">02</p> 
+          </div>
+          <!-- number description -->
+          <p class="text-[14px] tracking-[0.35px]  ">Advanced built-in reports</p>
+          </div>
+        </div>
+        <!-- manage text -->
+        <p class="w-[340px] text-[14px] leading-[26px] font-light  text-DarkGrayishBlue md:text-[16px] md:text-left md:mt-[27px] md:w-[445px] md:ml-[96px]">Set interval delivery estimates and track progress toward company goals. Our customizable dashboard helps you build out the reports you need to keep key stakeholders informed. </p>
+      </article>
+     </div>
+    <!-- article 3 -->
+    <div>
+      <article class="flex flex-col space-y-[14px] ">
+        <!-- manage heading -->
+        <div class="w-full h-[40px] bg-VeryPaleRed overflow-hidden rounded-tl-[18px] rounded-bl-[18px] md:bg-transparent">
+          <!-- detail 1 heading-->
+          <div class=" flex items-center space-x-[15px] font-bold leading-[28px] md:space-x-[30px]">
+          <!-- number btn -->
+          <div class="bg-BrightRed rounded-full w-[66px] h-[40px] text-white text-center py-[6px]" >
+           <p class="  tracking-[0.4px] text-[16px] ">03</p> 
+          </div>
+          <!-- number description -->
+          <p class="text-[14px] tracking-[0.35px]  ">Everything you need in one place</p>
+          </div>
+        </div>
+        <!-- manage text -->
+        <p class="max-w-[340px] text-[14px] leading-[26px] font-light  text-DarkGrayishBlue md:text-[16px] md:text-left md:mt-[27px] md:max-w-[442px] md:ml-[96px]">Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.  </p>
+      </article>
+     </div>
+  
+    </div>
+  </section>
+  
+  <!-- They said -->
+  <section class="  mt-[72px] w-full mx-auto md:mt-[150px]">
+    <div class="flex flex-col items-center mx-[18px]md:w-full md:mx-0">
+      
+      <!-- Heading -->
+      <h1 class="text-[30px] leading-[44px] font-bold text-center md:text-[37px] md:text-left md:leading-[44px] md:items-start ">
+      What they've said
+     </h1>
+  
+      <!-- Slider -->
+      <!-- slider container  wrap-->
+      <div class="relative w-[340px] h-[340px] mt:[54px] md:w-full">
+        <!-- slider -->
+        <div class="slider w-full h-full absolute left-0 top-0 overflow-auto ">
+         <!-- slider inner -->
+          <div class="absolute  left-0 top-0  flex gap-[31px] overflow-x-auto slides pointer-events-none ">
+            <!-- card 1 -->
+          <div id="1" class="card relative w-[340px] h-[247px] px-[27px] pb-[43px] mt-[92px] bg-VaryLightGray md:w-[540px] md:h-[221px] md:px-[56px] ">
+            <!-- profile name -->
+            <p class="text-[14px] mt-[64px] leading-[28px] font-bold text-center text-DarkBlue">Anisha Li</p>
+            <!-- proile text -->
+            <p class="max-w-[285px] text-[14px] mt-[26px]  leading-[26px] font-light text-center text-DarkGrayishBlue md:text-[16px] md:max-w-[429px] md:mt-[24px] md:text-[14px]">"Manage has supercharged our team's workflow. The maintain visibility on larger milestones at all times keeps everyone motivated." </p>
+
+            <!-- profile picture -->
+            <div class=" w-[75px] h-[75px] rounded-full bg-DarkGrayishBlue absolute top-0 left-[50%] translate-y-[-50%] translate-x-[-50%] ">
+              <img class="w-full object-cover bg-no-repeat bg-center " src="../images/avatar-anisha.png" alt="avatar-Ali">
+            </div>
+          </div>
+            <!-- card 2 -->
+          <div id="2" class="card relative w-[340px] h-[247px] px-[27px] pb-[43px] mt-[92px] bg-VaryLightGray md:w-[540px] md:h-[221px] md:px-[56px] ">
+            <!-- profile name -->
+            <p class="text-[14px] mt-[64px] leading-[28px] font-bold text-center text-DarkBlue">Ali Bravo</p>
+            <!-- proile text -->
+            <p class="max-w-[285px] text-[14px] mt-[26px]  leading-[26px] font-light text-center text-DarkGrayishBlue md:text-[16px] md:max-w-[429px] md:mt-[24px] md:text-[14px]">"We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused." </p>
+
+            <!-- profile picture -->
+            <div class=" w-[75px] h-[75px] rounded-full bg-DarkGrayishBlue absolute top-0 left-[50%] translate-y-[-50%] translate-x-[-50%] ">
+              <img class="w-full object-cover bg-no-repeat bg-center " src="../images/avatar-ali.png" alt="avatar-Ali">
+            </div>
+          </div>
+            <!-- card 3 -->
+          <div id="3" class="card relative w-[340px] h-[247px] px-[27px] pb-[43px] mt-[92px] bg-VaryLightGray md:w-[540px] md:h-[221px] md:px-[56px] ">
+            <!-- profile name -->
+            <p class="text-[14px] mt-[64px] leading-[28px] font-bold text-center text-DarkBlue">Richard Watts</p>
+            <!-- proile text -->
+            <p class="max-w-[285px] text-[14px] mt-[26px]  leading-[26px] font-light text-center text-DarkGrayishBlue md:text-[16px] md:max-w-[429px] md:mt-[24px] md:text-[14px]">"Manage allows us to provide structure and provides, keeps us organized and focused. I can't stop record them to everyone to talk!."</p>
+
+            <!-- profile picture -->
+            <div class=" w-[75px] h-[75px] rounded-full bg-DarkGrayishBlue absolute top-0 left-[50%] translate-y-[-50%] translate-x-[-50%] ">
+              <img class="w-full object-cover bg-no-repeat bg-center " src="../images/avatar-richard.png" alt="avatar-Ali">
+            </div>
+          </div>
+          
+            <!-- card 4 -->
+          <div id="4" class="card relative w-[340px] h-[247px] px-[27px] pb-[43px] mt-[92px] bg-VaryLightGray md:w-[540px] md:h-[221px] md:px-[56px] ">
+            <!-- profile name -->
+            <p class="text-[14px] mt-[64px] leading-[28px] font-bold text-center text-DarkBlue">Shanai Gough</p>
+            <!-- proile text -->
+            <p class="max-w-[285px] text-[14px] mt-[26px]  leading-[26px] font-light text-center text-DarkGrayishBlue md:text-[16px] md:max-w-[429px] md:mt-[24px] md:text-[14px]">"Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive." </p>
+
+            <!-- profile picture -->
+            <div class=" w-[75px] h-[75px] rounded-full bg-DarkGrayishBlue absolute top-0 left-[50%] translate-y-[-50%] translate-x-[-50%] ">
+              <img class="w-full object-cover bg-no-repeat bg-center " src="../images/avatar-shanai.png" alt="avatar-Ali">
+            </div>
+          </div>
+          
+          </div>
+
+        </div>
+      </div>
+      <div class="counters flex gap-[4px] items-center mt-[26px] md:hidden ">
+        <a href="#1">
+          <div class="counter w-[8px] h-[8px] rounded-full border-BrightRed border-solid border-[1px] cursor-pointer" id="1"></div>
+        </a>
+        <a href="#2">
+          <div class="counter  w-[8px] h-[8px] rounded-full border-BrightRed border-solid border-[1px] cursor-pointer" id="2"></div>
+        </a>
+        <a href="#3">
+          <div class="counter w-[8px] h-[8px] rounded-full border-BrightRed border-solid border-[1px] cursor-pointer" id="3"></div>
+        </a>
+        <a href="#4">
+          <div class="counter w-[8px] h-[8px] rounded-full border-BrightRed border-solid border-[1px] cursor-pointer" id="4"></div>
+        </a>
+        
+      </div>
+
+      <!-- button -->
+      <a href="#" class="self-center mt-[48px] px-[32px] py-[14px] font-medium text-white text-xs tracking-[0.18px] bg-BrightRed rounded-full drop-shadow-4xl baseline hover:bg-BrightRedLight md:inline-block ">Get Started</a>
+    </div>
+  </section>
+
+  <!-- simplify section -->
+<section class=" w-full h-[415px] bg-BrightRed text-white mt-[30px]  px-[24px] py-[30px] flex  items-center justify-center md:h-[220px] md:mt-[180px] ">
+  <div class=" w-full md:max-w-[1110px] flex flex-col  items-center justify-between md:flex-row ">
+
+    <!-- simplify text -->
+    <h1 class="text-[37px] leading-[50px] font-bold text-center pt-[20px] md:w-[442px] md:text-left ">Simplify how your team works today.</h1>
+    
+    <!-- Button -->
+      <a href="#" class="block px-[32px] py-[14px] my-[24px] font-medium text-xs bg-VaryLightGray text-BrightRed rounded-full drop-shadow-4xl baseline hover:text-BrightRedLight ">Get Started</a>
+  </div>
+   </div>
+</section>
+
+<footer class="w-full h-[537px] bg-VeryDarkBlue text-white md:h-[248px] md:py-[59px] flex justify-center ">
+  <div class="relative h-full flex flex-col items-center  px-[24px]  md:flex-row  md:max-w-[1110px]   md:px-0  md:justify-between md:items-start">
+
+    <!-- inbox -->
+    <div class="md:order-1 ">
+      <!-- form  -->
+      <form action="" class="flex items-start  mt-[50px] w-full h-[63px] relative md:mt-0 " data-form novalidate>
+          <div class="flex items-center w-full space-x-[8px]">
+
+            <input id="mail" type="email" name="email_address" placeholder="Updates in your inbox..."  required class="w-[240px]  pt-[15px] pr-[73px] pb-[14px] pl-[24px] rounded-full text-BrightRed text-[12px] tracking-[0.18px] leading-[15px] placeholder:text-medium placeholder:text-[12px] placeholder-VeryDarkBlue placeholder:tracking-[0.18px] focus:outline-none focus:border-BrightRed focus:ring-BrightRed focus:ring-1 md:w-[200px] md:pl-[16px] md:pr-[42px]" data-input>
+            
+            <!-- button -->
+            <button type="submit" class="text-[12px] tracking-[0.18px] leading-[15px] px-[30px] py-[15px] rounded-full bg-BrightRed hover:bg-BrightRedLight font-medium md:px-[23px] "  data-submit>Go</button>
+          </div>
+          <p id="input-error" class="hidden opacity-0 italic text-[10px] leading-[13px] text-BrightRed  pt-[3px] absolute left-[14px] bottom-0">Please insert a valid email</p>
+      </form>
+    </div>
+    <!-- links -->
+    <div class="flex items-start w-[264px] justify-between mt-[58px] md:py-[3px]  md:mt-0 md:[h-full] md:ml-[124px] md:mr-[173px] md:w-[380px]">
+      <!-- left links -->
+      <div class="flex flex-col items-start space-y-[17px] text-sm font-normal leading-[18px] ">
+       <a href="#" class="hover:text-BrightRed">Home</a>
+       <a href="#" class="hover:text-BrightRed">Pricing</a>
+       <a href="#" class="hover:text-BrightRed">Products</a>
+       <a href="#" class="hover:text-BrightRed">About Us</a>
+      </div>
+      <!-- right links -->
+      <div class="flex flex-col items-start space-y-[17px] text-sm font-normal leading-[18px] ">
+       <a href="#" class="hover:text-BrightRed">Careers</a>
+       <a href="#" class="hover:text-BrightRed">Community</a>
+       <a href="#" class="hover:text-BrightRed">Privacy Policy</a>
+      </div>
+  
+    </div>
+    <!-- desktop left -->
+    <div class="flex flex-col  items-center md:-order-1 md:flex-col-reverse md:h-full md:justify-between md:items-start">
+      <!-- social links -->
+      <div class="mt-[50px] flex items-center justify-center space-x-[33px] md:mt-0 md:space-x-[13px]  ">
+        <a href="#" class=""><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#" class=""><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" class=""><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class=""><i class="fa-brands fa-pinterest"></i></a>
+        <a href="#" class=""><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <!-- logo -->
+      <div class="mt-[51px] w-[157px] cursor-pointer md:mt-0 ">
+         <img src="../images/logo.svg" alt="logo">
+        </div>
+  
+    </div>
+    <!-- copyright -->
+    <p class="mt-[54px] mb-[41px] text-[12px] font-normal leading-[15px] md:order-2 md:absolute md:right-0 md:bottom-0  md:mb-[3px] md:mt-0">Copyright 2020. All Rights Reserved</p>
+  </div>
+</footer>
+ </main>
+  <script src="../src/app.js"></script>
+</body>
+</html>
