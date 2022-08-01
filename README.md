@@ -60,8 +60,10 @@ Users should be able to:
 
 ### What I learned
 
-For the first time I tried out tailwind css. I most say it easy to understand although there were some challenges I faced at the beginning but with the Tailwind documentation I found some work arounds. For instance most of the sizes in this project are in pixels. The tailwind sizing required a lot of adjusting/ converting. So thankfully they were rooms for custom values and custom CSS styles outside HTML. 
-Asides using Tailwind CSS major learnings were from coding the form and slider sections. They were challenging for me so had to pull resources to achieve what I have done
+For the first time I tried out tailwind css. I most say it easy to understand although there were some challenges I faced at the beginning but with the Tailwind documentation I found some work arounds. For instance most of the sizes in this project are in pixels. 
+The tailwind sizing required a lot of adjusting/ converting. So thankfully they were rooms for custom values and custom CSS styles outside HTML. 
+Deploying this project to github was not straight forward like I would expect. Tip place all files in the root so sav yourself from headaches.
+Asides using Tailwind CSS major learnings were from coding the form and slider sections. They were challenging for me, so had to pull resources to achieve what I have done.
 
 
 ### Continued development
