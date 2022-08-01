@@ -11,7 +11,7 @@
      scroll-behavior: smooth;
     }
     main{
-     background-image: url(../images/svg-desktop.svg);
+     background-image: url(./images/svg-desktop.svg);
      background-repeat: no-repeat;
      background-size: 2510px 2500px ;
      background-position: top -515px left -536px;
@@ -20,7 +20,7 @@
     
     @media screen and (max-width: 480px){
     main {
-     background-image: url(../images/svg\ mobile.svg);
+     background-image: url(./images/svg\ mobile.svg);
      background-size: 818px 1145px;
      background-position: top -281px left 10px;
     }
@@ -122,7 +122,7 @@
     .fa-youtube {
         width: 21px;
         height: 21px;
-        padding: 5px;
+        padding: 5px 0px;
         transform: translateY(-2.5px);
       font-size: 11px;
       line-height: 8px;
