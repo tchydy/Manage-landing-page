@@ -35,7 +35,6 @@ Users should be able to:
 
 ![](./screenshot-desktop.png)
 ![](./screenshot-mobile.png)
-
 ### Links
 
 - Solution URL: [Github solution URL here](https://github.com/tchydy/manage-landing-page-master)
